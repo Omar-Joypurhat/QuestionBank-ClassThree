@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#f5f7f4" />
+    <meta name="description" content="A 30-minute teacher readiness assessment based on NCTB Class 3 English for Today." />
+    <title>Teacher Readiness Check · Class 3 English for Today</title>
+  </head>
+  <body class="assessment-body">
+    <div class="assessment-app">
+      <header class="assessment-topbar">
+        <a class="assessment-brand" href="./" aria-label="Back to BrightSteps question bank">
+          <span class="assessment-brand-mark">B</span>
+          <span><strong>BrightSteps</strong><small>CLASS 3 · ENGLISH FOR TODAY</small></span>
+        </a>
+        <div class="assessment-top-actions">
+          <span class="edition-label">NCTB · 2026 EDITION</span>
+          <a class="back-link" href="./" aria-label="Back to the question bank">← Back</a>
+          <button class="print-button" id="printTest" type="button">Print question paper</button>
+        </div>
+      </header>
+
+      <main class="assessment-main">
+        <section class="assessment-hero">
+          <div class="assessment-hero-copy">
+            <span class="assessment-kicker"><span></span> TEACHER READINESS CHECK</span>
+            <h1>How well do you know<br /><em>the book?</em></h1>
+            <p>A short, book-based assessment to check preparation across all eight units of Class 3 English for Today.</p>
+            <div class="assessment-meta">
+              <span><strong>30</strong> minutes</span><i></i><span><strong>30</strong> marks</span><i></i><span><strong>8</strong> book units</span>
+            </div>
+          </div>
+          <div class="timer-card" aria-live="polite">
+            <span class="timer-caption">TIME LEFT</span>
+            <strong class="timer-display" id="timerDisplay">30:00</strong>
+            <button class="timer-start" id="startTimer" type="button">Start 30-minute timer</button>
+            <small>Start when you are ready.</small>
+          </div>
+          <span class="hero-decoration hero-decoration-one"></span>
+          <span class="hero-decoration hero-decoration-two"></span>
+        </section>
+
+        <section class="assessment-instructions">
+          <span class="instruction-icon">i</span>
+          <p><strong>Instructions:</strong> Attempt without the textbook to measure recall. Questions follow the book's unit content and activity style. Use the marking guide after submitting; open responses are scored with a rubric.</p>
+          <button class="text-only-button" id="resetTest" type="button">Reset</button>
+        </section>
+
+        <section class="download-strip" id="documents" aria-label="Download assessment documents">
+          <div class="download-copy"><strong>Download the documents</strong><small>Click a file to save it to your computer.</small></div>
+          <a class="download-doc-button" href="./downloads/Class_3_English_Teacher_Readiness_Questions.docx" download>Questions only <span>.DOCX ↓</span></a>
+          <a class="download-doc-button download-answer" href="./downloads/Class_3_English_Teacher_Readiness_Answer_Key.docx" download>Answer key <span>.DOCX ↓</span></a>
+          <a class="download-doc-button download-pdf" href="./downloads/Class_3_English_Teacher_Readiness_Answer_Key.pdf" download>Answer key <span>.PDF ↓</span></a>
+        </section>
+
+        <form id="assessmentForm" class="assessment-paper">
+          <section class="test-part">
+            <header class="part-heading">
+              <div class="part-heading-main"><span class="part-index">A</span><div><h2>Quick book recall</h2><p>Choose one answer for each question.</p></div></div>
+              <span class="part-score">8 marks <i>·</i> 6 min</span>
+            </header>
+
+            <fieldset class="test-question">
+              <legend><span class="question-number">01</span><span>In Unit 1, which reply best completes the greeting, “Good morning. What is your name?”</span></legend>
+              <div class="test-options">
+                <label><input type="radio" name="a1" value="a" /><span class="option-mark">A</span><span>Good morning. My name is Sanjoy.</span></label>
+                <label><input type="radio" name="a1" value="b" /><span class="option-mark">B</span><span>Good night. I am going home.</span></label>
+                <label><input type="radio" name="a1" value="c" /><span class="option-mark">C</span><span>I like to play football.</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="test-question">
+              <legend><span class="question-number">02</span><span>In the Unit 2 reading about Sabiha, where does her mother work?</span></legend>
+              <div class="test-options">
+                <label><input type="radio" name="a2" value="a" /><span class="option-mark">A</span><span>At a school</span></label>
+                <label><input type="radio" name="a2" value="b" /><span class="option-mark">B</span><span>At a bank</span></label>
+                <label><input type="radio" name="a2" value="c" /><span class="option-mark">C</span><span>At a hospital</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="test-question">
+              <legend><span class="question-number">03</span><span>Which sentence is the polite request pattern practised in Unit 3?</span></legend>
+              <div class="test-options">
+                <label><input type="radio" name="a3" value="a" /><span class="option-mark">A</span><span>Can you open the door, please?</span></label>
+                <label><input type="radio" name="a3" value="b" /><span class="option-mark">B</span><span>The door is brown.</span></label>
+                <label><input type="radio" name="a3" value="c" /><span class="option-mark">C</span><span>You opened the door yesterday.</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="test-question">
+              <legend><span class="question-number">04</span><span>In Unit 4, which pair has the same middle vowel sound?</span></legend>
+              <div class="test-options">
+                <label><input type="radio" name="a4" value="a" /><span class="option-mark">A</span><span>pen / ten</span></label>
+                <label><input type="radio" name="a4" value="b" /><span class="option-mark">B</span><span>pen / pan</span></label>
+                <label><input type="radio" name="a4" value="c" /><span class="option-mark">C</span><span>bed / cat</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="test-question">
+              <legend><span class="question-number">05</span><span>In the Unit 5 reading about Porshi's school, when do the student groups clean the school?</span></legend>
+              <div class="test-options">
+                <label><input type="radio" name="a5" value="a" /><span class="option-mark">A</span><span>Every Sunday</span></label>
+                <label><input type="radio" name="a5" value="b" /><span class="option-mark">B</span><span>Every Thursday</span></label>
+                <label><input type="radio" name="a5" value="c" /><span class="option-mark">C</span><span>Every Friday</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="test-question">
+              <legend><span class="question-number">06</span><span>According to Unit 6, when should children wash their hands?</span></legend>
+              <div class="test-options">
+                <label><input type="radio" name="a6" value="a" /><span class="option-mark">A</span><span>Before eating and after playing</span></label>
+                <label><input type="radio" name="a6" value="b" /><span class="option-mark">B</span><span>Only before sleeping</span></label>
+                <label><input type="radio" name="a6" value="c" /><span class="option-mark">C</span><span>Only when it rains</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="test-question">
+              <legend><span class="question-number">07</span><span>Which water-saving action is taught in Unit 7?</span></legend>
+              <div class="test-options">
+                <label><input type="radio" name="a7" value="a" /><span class="option-mark">A</span><span>Turn off the tap while brushing your teeth.</span></label>
+                <label><input type="radio" name="a7" value="b" /><span class="option-mark">B</span><span>Leave the tap running after washing.</span></label>
+                <label><input type="radio" name="a7" value="c" /><span class="option-mark">C</span><span>Throw rubbish into a pond.</span></label>
+              </div>
+            </fieldset>
+
+            <fieldset class="test-question">
+              <legend><span class="question-number">08</span><span>In “The Ant and the Grasshopper” (Unit 8), what does the ant do during summer?</span></legend>
+              <div class="test-options">
+                <label><input type="radio" name="a8" value="a" /><span class="option-mark">A</span><span>Stores food for winter</span></label>
+                <label><input type="radio" name="a8" value="b" /><span class="option-mark">B</span><span>Sleeps all day</span></label>
+                <label><input type="radio" name="a8" value="c" /><span class="option-mark">C</span><span>Throws away the food</span></label>
+              </div>
+            </fieldset>
+          </section>
+
+          <section class="test-part">
+            <header class="part-heading">
+              <div class="part-heading-main"><span class="part-index part-index-lilac">B</span><div><h2>Short answers</h2><p>Answer from the book's lessons.</p></div></div>
+              <span class="part-score">8 marks <i>·</i> 8 min</span>
+            </header>
+
+            <div class="written-question">
+              <div class="written-prompt"><span class="question-number">09</span><div><strong>Write these numbers in words: 14 and 19.</strong><small>Unit 1 · Numbers 11–20 · 2 marks</small></div></div>
+              <input type="text" name="b9" autocomplete="off" placeholder="Write both number names" />
+            </div>
+            <div class="written-question">
+              <div class="written-prompt"><span class="question-number">10</span><div><strong>What do Sabiha's father and mother do?</strong><small>Unit 2 · My family · 2 marks</small></div></div>
+              <input type="text" name="b10" autocomplete="off" placeholder="Write one fact about each parent" />
+            </div>
+            <div class="written-question">
+              <div class="written-prompt"><span class="question-number">11</span><div><strong>Write two commands from the drill / exercise activities in Unit 3.</strong><small>Unit 3 · Commands and instructions · 2 marks</small></div></div>
+              <textarea name="b11" rows="2" placeholder="Write two short commands"></textarea>
+            </div>
+            <div class="written-question">
+              <div class="written-prompt"><span class="question-number">12</span><div><strong>What happens to the grasshopper in winter, and why?</strong><small>Unit 8 · The ant and the grasshopper · 2 marks</small></div></div>
+              <textarea name="b12" rows="2" placeholder="Answer in one or two sentences"></textarea>
+            </div>
+          </section>
+
+          <section class="test-part">
+            <header class="part-heading">
+              <div class="part-heading-main"><span class="part-index part-index-peach">C</span><div><h2>Use the textbook activities</h2><p>Put instructions in order and edit a sentence.</p></div></div>
+              <span class="part-score">7 marks <i>·</i> 7 min</span>
+            </header>
+
+            <div class="written-question sequence-question">
+              <div class="written-prompt"><span class="question-number">13</span><div><strong>Put the kite-making steps in the correct order. Write the five letters in sequence.</strong><small>Unit 3 · Making a kite · 5 marks</small></div></div>
+              <ol class="step-list" type="A">
+                <li>Make a tail for the kite.</li>
+                <li>Fold the A4 paper in half.</li>
+                <li>Make a hole near the staple; thread the string through and tie it.</li>
+                <li>Staple the folded corners in place.</li>
+                <li>Place the top corners on opposite sides.</li>
+              </ol>
+              <input type="text" name="c13" autocomplete="off" placeholder="Example format: B → E → D → A → C" />
+            </div>
+            <div class="written-question">
+              <div class="written-prompt"><span class="question-number">14</span><div><strong>Rewrite correctly: “friday and saturday are their holidays”</strong><small>Unit 5 · Capital letters for days · 2 marks</small></div></div>
+              <input type="text" name="c14" autocomplete="off" placeholder="Use capital letters and a full stop" />
+            </div>
+          </section>
+
+          <section class="test-part">
+            <header class="part-heading">
+              <div class="part-heading-main"><span class="part-index part-index-sky">D</span><div><h2>Show your teaching preparation</h2><p>Plan from the book, not from a guide.</p></div></div>
+              <span class="part-score">7 marks <i>·</i> 9 min</span>
+            </header>
+
+            <div class="written-question">
+              <div class="written-prompt"><span class="question-number">15</span><div><strong>Write a four-line pair dialogue for Unit 1. One child is introducing themself to a new student.</strong><small>Include a greeting, a name / class, a question and a polite closing · 4 marks</small></div></div>
+              <textarea name="d15" rows="5" placeholder="Child A: ...&#10;Child B: ..."></textarea>
+            </div>
+            <div class="written-question">
+              <div class="written-prompt"><span class="question-number">16</span><div><strong>Write two comprehension questions with their answers for the Unit 7 reading about water pollution.</strong><small>Keep both questions answerable from the lesson · 3 marks</small></div></div>
+              <textarea name="d16" rows="4" placeholder="1. Question …? Answer: …&#10;2. Question …? Answer: …"></textarea>
+            </div>
+          </section>
+
+          <div class="paper-submit-row">
+            <p>Check that you have attempted all four parts before submitting.</p>
+            <button class="submit-test-button" type="submit">Submit and see marking guide →</button>
+          </div>
+        </form>
+
+        <section class="test-results" id="testResults" hidden aria-live="polite">
+          <div class="results-header"><span class="results-check">✓</span><div><span class="section-kicker">ASSESSMENT SUBMITTED</span><h2>Review your readiness</h2></div></div>
+          <div class="score-result"><span>Auto-marked multiple choice</span><strong id="autoScore">—/8</strong></div>
+          <p class="manual-score-note">The remaining 22 marks are open-response items. Use the marking guide below to score them consistently.</p>
+          <details class="marking-guide" id="markingGuide">
+            <summary>Open the answer key and scoring rubric</summary>
+            <div class="guide-content">
+              <h3>Part A · Quick book recall</h3>
+              <ol>
+                <li><strong>A.</strong> “Good morning. My name is Sanjoy.”</li>
+                <li><strong>B.</strong> At a bank.</li>
+                <li><strong>A.</strong> “Can you open the door, please?”</li>
+                <li><strong>A.</strong> <em>pen / ten</em> share the same middle vowel sound.</li>
+                <li><strong>B.</strong> Every Thursday.</li>
+                <li><strong>A.</strong> Before eating and after playing.</li>
+                <li><strong>A.</strong> Turn off the tap while brushing.</li>
+                <li><strong>A.</strong> The ant stores food for winter.</li>
+              </ol>
+              <h3>Part B · Short answers (8 marks)</h3>
+              <ul>
+                <li><strong>9.</strong> Fourteen; nineteen. One mark each.</li>
+                <li><strong>10.</strong> Her father is a teacher; her mother works at a bank. One mark each.</li>
+                <li><strong>11.</strong> Any two accurate commands from Unit 3, such as “Keep your body straight,” “Keep your head still,” or “Keep your arms forward.” One mark each.</li>
+                <li><strong>12.</strong> The grasshopper cannot find food / becomes weak or starves because he did not store food during summer. One mark for what happens; one for why.</li>
+              </ul>
+              <h3>Part C · Textbook activities (7 marks)</h3>
+              <ul>
+                <li><strong>13.</strong> B → E → D → A → C. One mark for each step in the right position.</li>
+                <li><strong>14.</strong> “Friday and Saturday are their holidays.” One mark for the capital letters; one for the final full stop.</li>
+              </ul>
+              <h3>Part D · Teaching preparation (7 marks)</h3>
+              <ul>
+                <li><strong>15.</strong> 1 mark each for a suitable greeting, name/class information, a relevant question and response, and a polite closing. Accept natural variations.</li>
+                <li><strong>16.</strong> 1.5 marks per suitable question-and-accurate-answer pair based on the water-pollution lesson. Examples: “What did Shihab and Kaniz see in the river? — Rubbish and plastic.” / “Why should we not throw rubbish into the river? — It pollutes the water and can harm people and fish.”</li>
+              </ul>
+              <div class="readiness-bands"><strong>Suggested interpretation</strong><span>25–30: well prepared</span><span>19–24: revisit a few units</span><span>13–18: needs focused review</span><span>0–12: review the book before teaching</span></div>
+            </div>
+          </details>
+          <button class="retake-button" id="retakeTest" type="button">Retake the assessment</button>
+        </section>
+
+        <footer class="assessment-footer">
+          <a href="./">← Back to the question bank</a>
+          <span>Class 3 · English for Today · 2026 edition</span>
+          <small class="source-note">The official NCTB listing confirms the 2026 title; the PDF itself was not extractable here. Lesson details are cross-checked against a public Class Three text transcription, so verify the exact wording against your school copy before formal evaluation.</small>
+        </footer>
+      </main>
+    </div>
+    <script type="module" src="/src/teacher-assessment.js"></script>
+  </body>
+</html>
