@@ -32,14 +32,13 @@ jobs:
         run: npm run build
         env:
           VITE_BASE_PATH: /QuestionBank-ClassThree/
-      - name: Configure GitHub Pages
-        uses: actions/configure-pages@v5
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
   deploy:
+    if: ${{ github.event.repository && !github.event.repository.private }}
     needs: build
     runs-on: ubuntu-latest
     permissions:
@@ -49,6 +48,8 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
