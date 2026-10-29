@@ -20,7 +20,7 @@ Run the data checks with `npm test`.
 
 ## Free hosting
 
-The repository includes a GitHub Actions workflow that runs the tests and deploys this static site to GitHub Pages when the current deployment branch is updated. The expected public URL is <https://omar-joypurhat.github.io/QuestionBank-ClassThree/>. GitHub Pages must be enabled with **Settings → Pages → Build and deployment → Source: GitHub Actions**. The repository and the question-bank/Word documents will be publicly accessible when hosted this way.
+The repository includes a GitHub Actions workflow that runs the tests and deploys this static site to GitHub Pages when `main` is updated. The expected public URL is <https://omar-joypurhat.github.io/QuestionBank-ClassThree/>. GitHub Pages must be enabled with **Settings → Pages → Build and deployment → Source: GitHub Actions**. The repository and the question-bank/Word documents will be publicly accessible when hosted this way.
 
 ## Included
 

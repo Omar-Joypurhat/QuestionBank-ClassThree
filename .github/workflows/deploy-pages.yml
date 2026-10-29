@@ -3,7 +3,7 @@ name: Build and deploy to GitHub Pages
 on:
   push:
     branches:
-      - arena/ea14fdde-questionbank-classthree
+      - main
   workflow_dispatch:
 
 permissions:
