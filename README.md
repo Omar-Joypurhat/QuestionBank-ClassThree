@@ -27,7 +27,7 @@ The repository includes a GitHub Actions workflow that runs the tests and deploy
 - 40 starter questions arranged across the book's eight units, with lesson references and short reading passages.
 - Search, unit filters, pagination, answer feedback, writing samples, saved questions, and five-question practice.
 - A printable **30-minute, 30-mark teacher readiness check**, with a timer, auto-scored multiple choice, answer key, and marking rubric.
-- Separate Word downloads for the questions-only paper and answer key, linked from the Teacher Readiness page (`public/downloads/`).
+- Separate downloads for the questions-only Word paper, Word answer key, and PDF answer key, linked from the Teacher Readiness page (`public/downloads/`).
 - Browser storage for favourites, writing drafts, and practice totals.
 - Data-first question content in `src/data.js` so more units and question sets can be added later.
 

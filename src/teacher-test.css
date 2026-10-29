@@ -124,6 +124,9 @@ a { color: inherit; }
 .download-answer { color: #fff; background: #286247; border-color: #286247; }
 .download-answer:hover { background: #1e543c; }
 .download-answer span { color: #c9dec8; }
+.download-pdf { color: #725516; background: #fff7e5; border-color: #f0e4c2; }
+.download-pdf:hover { background: #fff0cf; }
+.download-pdf span { color: #967b40; }
 
 @media (max-width: 720px) {
   .assessment-topbar { min-height: 61px; gap: 10px; padding: 0 15px; }
